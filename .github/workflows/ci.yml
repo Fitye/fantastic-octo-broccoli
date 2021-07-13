@@ -4,11 +4,11 @@ on:
   push:
     branches:
       - master
-  schedule:
-    - cron: "*/15 * * * *"
+  # schedule:
+  #   - cron: "0 0 * * *"
 
 jobs:
-  autogree  
+  autogreen:
     runs-on: ubuntu-latest
     steps:
       - name: Clone repository
