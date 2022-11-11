@@ -1,2 +1,2 @@
-# auto-green
+#* auto-green
 check
